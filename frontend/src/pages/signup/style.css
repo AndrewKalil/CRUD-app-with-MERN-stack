@@ -1,0 +1,25 @@
+.center-div {
+    padding-top: 10%;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background: #334d50; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #334d50, #cbcaa5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #334d50, #cbcaa5);
+}
+
+.btn.btn-success{
+    padding: .4em 2em;
+}
+
+form {
+    padding: 0 3em;
+}
+
+#signup .title > span {
+    font-size: .8em;
+}
+
+#signup .container{
+    background: white;
+    border-radius: 10px;
+}

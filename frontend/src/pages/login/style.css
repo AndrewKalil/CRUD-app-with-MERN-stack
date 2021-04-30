@@ -1,0 +1,42 @@
+.center-div {
+    padding-top: 10%;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background: #334d50; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #334d50, #cbcaa5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #334d50, #cbcaa5);
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+@media only screen and (max-width: 600px) {
+    .myForm{
+        width: 95%;
+    }
+}
+
+.btn.btn-success{
+    padding: .4em 2em;
+}
+
+form {
+    padding: 0 3em;
+}
+
+#login .title > span {
+    font-size: .8em;
+}
+
+#login .container{
+    background: white;
+    border-radius: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
